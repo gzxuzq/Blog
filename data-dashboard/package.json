@@ -1,0 +1,41 @@
+{
+  "name": "data-dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "npm run lint:eslint && npm run lint:style",
+    "lint:eslint": "eslint . --ext .ts,.tsx,.vue --max-warnings=0",
+    "lint:style": "stylelint \"src/**/*.{css,vue}\"",
+    "format": "prettier --write \"**/*.{ts,tsx,js,vue,json,md,css}\""
+  },
+  "dependencies": {
+    "echarts": "^6.0.0",
+    "three": "^0.181.1",
+    "vue": "^3.5.24"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/tsconfig": "^0.8.1",
+    "autoprefixer": "^10.4.22",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.29.0",
+    "postcss": "^8.5.6",
+    "postcss-html": "^1.6.0",
+    "prettier": "^3.3.3",
+    "stylelint": "^14.16.1",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-order": "^6.0.3",
+    "tailwindcss": "^3.4.15",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.2",
+    "vue-tsc": "^3.1.3"
+  }
+}

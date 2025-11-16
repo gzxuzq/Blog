@@ -1,0 +1,7 @@
+dist
+node_modules
+*.config.js
+*.config.cjs
+.eslintrc.cjs
+coverage
+public
